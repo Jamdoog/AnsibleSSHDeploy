@@ -1,6 +1,6 @@
 ---
 - name: Deploy SSH Playbook
   become: true
-  hosts: al
+  hosts: all
   roles:
     - jamdoog.ssh
